@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-7 ">
+        <div class="pb-5">
+            <app-top-home></app-top-home>
+        </div>
+        <div class="features pb-5">
+            <div class="mycontainer2">
+                <div class="button-boxx d-flex">
+                    <div id="btnn" #btnRef></div>
+                    <button type="button" #bottomRef class="toggle-btnn text-capitalize text-center left" (click)="leftClick()" routerLink="bottomHome"><i class="pe-1 fa-solid fa-chart-simple" ></i>GRAPH</button>
+                    <button type="button" #chartsRef class="toggle-btnn text-capitalize text-center right" (click)="rightClick()" routerLink="charts"><i class="pe-1 fa-solid fa-list"></i>LIST</button>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">
+            
+            <router-outlet></router-outlet>
+        </div>
+        
+    </div>
+    <div class="offset-1 col-md-4">
+        <app-hourly-sales></app-hourly-sales>
+    </div>
+</div>

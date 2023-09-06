@@ -1,0 +1,52 @@
+/* .containers {
+    display: flex;
+  }
+  
+  app-side-nav {
+   
+    position: relative;
+    z-index: 2;
+  }
+  
+  app-navbar {
+   
+    position: relative;
+    z-index: 1;
+  }
+   */
+  
+   
+
+
+
+
+   /* Default styles for app-navbar */
+app-navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    left: 64px;
+    background: #ffffff; ;
+    
+    
+}
+
+/* Default styles for app-leftbar */
+app-side-nav {
+    
+    position: absolute;
+    left: 0rem;
+    height: 1200px;
+
+    
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: width 250ms ease-in;
+    z-index: 2;
+}
+
+
+.main-content{
+    padding: 6% 0 0 5% ;
+}
+

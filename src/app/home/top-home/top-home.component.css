@@ -1,0 +1,49 @@
+.square{
+    width: 260px;
+    height: 163px;
+    background: #F4DBD4 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+}
+
+.content{
+    padding: 40px;
+}
+.number{
+    font-size: 35px;
+}
+
+.other-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.triangle {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #FF7F5C; 
+}
+
+.power{
+    font-size: 10px;
+    
+}
+
+.other-content .d-flex{
+    width: 40px;
+}
+
+.other-content1 .d-flex{
+    width: 60px;
+}
+.square1{
+    width: 260px;
+    height: 163px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+}
+
+.triangle1 {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #00CBC0; 
+}

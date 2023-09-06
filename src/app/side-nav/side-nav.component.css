@@ -1,0 +1,44 @@
+
+.side-nav-content{
+    z-index: 10000;
+    grid-area: sidebar;
+    height: 950px;
+    
+    background-color: #FF7F5C;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.fa-droplet{
+    padding:  40px  30px  120px 30px;
+    
+}
+
+.fa-right-from-bracket{
+    padding:  50px  0px  0px 30px;
+}
+
+.nav-list{
+    padding: 0;
+    list-style-type: none;
+}
+.icons{
+    color: rgba(235, 229, 229,0.5);
+}
+
+
+
+
+.nav-list-item{
+
+    padding: 30px 30px 30px 30px;
+    font-size: 18px; 
+}
+
+
+.icons:hover{
+    color: white;
+    cursor: pointer;
+}

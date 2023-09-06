@@ -1,0 +1,269 @@
+<div class="scrollbox">
+    <div class="scrollbox-inner">
+        <div>
+            <div class="rectangle mb-3">
+            <div class="d-flex align-items-center justify-content-between pe-2">
+                <div>
+                    <div class="icons d-flex align-items-center pt-3 pb-1 mx-2">
+                        <span class="mt-4 mx-2 point"></span>
+        
+                    <i class="fa-solid fa-gas-pump fa-2xl" style="color: #FF7F5C;"></i>
+                    </div>
+                    <div class="title">
+                        STATION NAME DUMMY
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <i class="fa-solid fa-ellipsis fa-lg " (click)="toggleCardVisibility(1)"></i>
+                </div>
+                <div class="card" [ngClass]="{'show': isCardVisible[1]}" (click)="stopPropagation($event)">
+                    <div>
+
+                    </div>
+                    <div class="border"></div>
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <div class="d-flex justify-content-between text-align-center" style="width: 150px;">
+                            <div>
+                                <div class="box "></div>
+                                <div class="box mt-2"></div>
+                                <div class="box mt-2"></div>
+                            </div>
+                            <div style="font-size: 13px;">
+                                <div >Total sales</div>
+                                <div class="mt-1">Total transaction</div>
+                                <div class="mt-1">Total value</div>
+                            </div>
+                            
+                        </div>
+                        <div class="d-flex justify-content-between text-align-center" style="width: 200px;">
+                            <div>
+                                <div class="n-box "></div>
+                                <div class="n-box mt-2"></div>
+                                <div class="n-box mt-2"></div>
+                            </div>
+                            <div style="font-size: 12px;">
+                                <div >Max transaction count per hour</div>
+                                <div class="mt-1">Max transaction count date-time</div>
+                                <div class="mt-1">Compressor status</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                  
+            </div>
+            
+            <div class="border"></div>
+            <div class="content">
+                <div class="d-flex align-items-center justify-content-between pt-4 px-3" >
+                    <div class="d-flex justify-content-between " style="width: 200px;">
+                        <p>total sales</p>
+                        <span>62,721</span>
+                    </div>
+                    <div class="d-flex justify-content-between " style="width: 300px;">
+                        <p>Compression State</p>
+                        <span>Compression</span>
+                    </div>
+                    <div class="d-flex justify-content-between " style="width: 300px;">
+                        <p>Max Transaction / hour</p>
+                        <span style="width: 108px;">20</span>
+                    </div>
+
+
+                </div>
+                <div class="d-flex align-items-center justify-content-between  px-3" >
+                    <div class="d-flex justify-content-between " style="width: 200px;">
+                        <p>Total Value</p>
+                        <span>550EGP</span>
+                    </div>
+                    <div class="d-flex justify-content-between " style="width: 300px;">
+                        <p>Total Transaction Count</p>
+                        <span>5161</span>
+                    </div>
+                    <div class="d-flex justify-content-between " style="width: 300px;">
+                        <p>Max Transaction Date-Time</p>
+                        <span>8-1-2021 | 10:16 PM</span>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+            <div class="rectangle mb-3">
+                <div class="d-flex align-items-center justify-content-between pe-2">
+                    <div>
+                        <div class="icons d-flex align-items-center pt-3 pb-1 mx-2">
+                            <span class="mt-4 mx-2 point"></span>
+            
+                        <i class="fa-solid fa-gas-pump fa-2xl"></i>
+                        </div>
+                        <div class="title">
+                            STATION NAME DUMMY
+                        </div>
+                    </div>
+                    <div class="mx-2">
+                        <i class="fa-solid fa-ellipsis fa-lg " (click)="toggleCardVisibility(2)"></i>
+                    </div>
+                    <div class="card" [ngClass]="{'show': isCardVisible[2]}" (click)="stopPropagation($event)">
+                        <div>
+    
+                        </div>
+                        <div class="border"></div>
+                        <div class="d-flex justify-content-between align-items-center pt-1">
+                            <div class="d-flex justify-content-between text-align-center" style="width: 150px;">
+                                <div>
+                                    <div class="box "></div>
+                                    <div class="box mt-2"></div>
+                                    <div class="box mt-2"></div>
+                                </div>
+                                <div style="font-size: 13px;">
+                                    <div >Total sales</div>
+                                    <div class="mt-1">Total transaction</div>
+                                    <div class="mt-1">Total value</div>
+                                </div>
+                                
+                            </div>
+                            <div class="d-flex justify-content-between text-align-center" style="width: 200px;">
+                                <div>
+                                    <div class="n-box "></div>
+                                    <div class="n-box mt-2"></div>
+                                    <div class="n-box mt-2"></div>
+                                </div>
+                                <div style="font-size: 12px;">
+                                    <div >Max transaction count per hour</div>
+                                    <div class="mt-1">Max transaction count date-time</div>
+                                    <div class="mt-1">Compressor status</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border"></div>
+                <div class="content">
+                    <div class="d-flex align-items-center justify-content-between pt-4 px-3" >
+                        <div class="d-flex justify-content-between " style="width: 200px;">
+                            <p>total sales</p>
+                            <span>62,721</span>
+                        </div>
+                        <div class="d-flex justify-content-between " style="width: 300px;">
+                            <p>Compression State</p>
+                            <span>Compression</span>
+                        </div>
+                        <div class="d-flex justify-content-between " style="width: 300px;">
+                            <p>Max Transaction / hour</p>
+                            <span style="width: 108px;">20</span>
+                        </div>
+    
+    
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between  px-3" >
+                        <div class="d-flex justify-content-between " style="width: 200px;">
+                            <p>Total Value</p>
+                            <span>550EGP</span>
+                        </div>
+                        <div class="d-flex justify-content-between " style="width: 300px;">
+                            <p>Total Transaction Count</p>
+                            <span>5161</span>
+                        </div>
+                        <div class="d-flex justify-content-between " style="width: 300px;">
+                            <p>Max Transaction Date-Time</p>
+                            <span>8-1-2021 | 10:16 PM</span>
+                        </div>
+    
+    
+                    </div>
+                </div>
+                </div>
+                <div class="rectangle mb-3">
+                    <div class="d-flex align-items-center justify-content-between pe-2">
+                        <div>
+                            <div class="icons d-flex align-items-center pt-3 pb-1 mx-2">
+                                <span class="mt-4 mx-2 point"></span>
+                
+                            <i class="fa-solid fa-gas-pump fa-2xl"></i>
+                            </div>
+                            <div class="title">
+                                STATION NAME DUMMY
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <i class="fa-solid fa-ellipsis fa-lg " (click)="toggleCardVisibility(3)"></i>
+                        </div>
+                        <div class="card" [ngClass]="{'show': isCardVisible[3]}" (click)="stopPropagation($event)">
+                            <div>
+        
+                            </div>
+                            <div class="border"></div>
+                            <div class="d-flex justify-content-between align-items-center pt-1">
+                                <div class="d-flex justify-content-between text-align-center" style="width: 150px;">
+                                    <div>
+                                        <div class="box "></div>
+                                        <div class="box mt-2"></div>
+                                        <div class="box mt-2"></div>
+                                    </div>
+                                    <div style="font-size: 13px;">
+                                        <div >Total sales</div>
+                                        <div class="mt-1">Total transaction</div>
+                                        <div class="mt-1">Total value</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="d-flex justify-content-between text-align-center" style="width: 200px;">
+                                    <div>
+                                        <div class="n-box "></div>
+                                        <div class="n-box mt-2"></div>
+                                        <div class="n-box mt-2"></div>
+                                    </div>
+                                    <div style="font-size: 12px;">
+                                        <div >Max transaction count per hour</div>
+                                        <div class="mt-1">Max transaction count date-time</div>
+                                        <div class="mt-1">Compressor status</div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="border"></div>
+                    <div class="content">
+                        <div class="d-flex align-items-center justify-content-between pt-4 px-3" >
+                            <div class="d-flex justify-content-between " style="width: 200px;">
+                                <p>total sales</p>
+                                <span>62,721</span>
+                            </div>
+                            <div class="d-flex justify-content-between " style="width: 300px;">
+                                <p>Compression State</p>
+                                <span>Compression</span>
+                            </div>
+                            <div class="d-flex justify-content-between " style="width: 300px;">
+                                <p>Max Transaction / hour</p>
+                                <span style="width: 108px;">20</span>
+                            </div>
+        
+        
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between  px-3" >
+                            <div class="d-flex justify-content-between " style="width: 200px;">
+                                <p>Total Value</p>
+                                <span>550EGP</span>
+                            </div>
+                            <div class="d-flex justify-content-between " style="width: 300px;">
+                                <p>Total Transaction Count</p>
+                                <span>5161</span>
+                            </div>
+                            <div class="d-flex justify-content-between " style="width: 300px;">
+                                <p>Max Transaction Date-Time</p>
+                                <span>8-1-2021 | 10:16 PM</span>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                    </div>    
+        </div>
+        
+    </div>
+</div>

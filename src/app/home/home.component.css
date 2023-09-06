@@ -1,0 +1,58 @@
+.button-boxx {
+	width: 225px;
+	margin-top: 15px ;
+	position: relative;
+	border-radius: 20px;
+  height: 40px;
+	background: #ffffff;
+  color: blue;
+  
+
+ 
+}
+.features{
+    position: relative;
+}
+
+.mycontainer2{
+    position: absolute;
+    right: 0;
+    left: 870px;
+}
+.toggle-btnn{
+	padding: 10px 27px;
+	cursor: pointer;
+	background: transparent;
+  letter-spacing: .5px;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+  font-size: 14px;
+  
+ 
+}
+.left
+{
+  color: white;
+}
+.right
+{
+  color: rgba(156,163,175);
+}
+#btnn {
+	left: 4px;
+	top: 50%;
+  transform: translatey(-50%);
+	position: absolute;
+	width: 110px;
+	height: 84%;
+	background: #FF7F5C;
+	border-radius: 30px;
+	transition: .5s;
+}
+.dot
+{
+   
+    color: red;
+}

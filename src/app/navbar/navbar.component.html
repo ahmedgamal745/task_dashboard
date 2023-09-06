@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5 d-flex align-items-center" >
+   <div class="content d-flex justify-content-between align-items-center">
+    
+    <div class="icons d-flex align-items-center mx-2">
+        <span class="mt-4 mx-2 point"></span>
+        <i class="fa-solid fa-gas-pump fa-2xl"></i></div>
+    <div><b>2/3</b></div>
+    <div class="title">
+        <span>Monitored</span>
+        <span>Stationsg</span>
+    </div>
+   </div>
+   <div class="content d-flex justify-content-between align-items-center mx-4">
+    
+    <div class="icons d-flex align-items-center">
+        <span class="mt-4 mx-2 point"></span>
+        <i class="fa-solid fa-arrow-rotate-right fa-xl"></i></div>
+    <div><b>20s</b></div>
+    <div class="title">
+        <span>Last </span>
+        <span>Update</span>
+    </div>
+   </div>
+   <div class="content-bg d-flex justify-content-between align-items-center mx-5">
+    
+    <span class="active px-3">Today</span>
+    <span>Yesterday</span>
+    <span class="px-3">Last Week</span>
+   </div>
+   <div class="content-date d-flex justify-content-between align-items-center mx-5">
+    
+    <div class="px-1 triangle"></div>
+    <mat-form-field class="mt-2 date" >
+        
+        
+        <mat-label>Start date-time</mat-label>
+        <input matInput [matDatepicker]="picker">
+        
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+   </div>
+   <div class="content-date d-flex justify-content-between align-items-center mx-5">
+    <div class="mx-2 square"></div>
+    <mat-form-field class="mt-2 date" >
+        <mat-label>End date-time</mat-label>
+        <input matInput [matDatepicker]="picker">
+        
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+   </div>
+   
+   
+  
+
+
+  </nav>
